@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="mycal.css">
+    
+</head>
+
+<h1 style="text-align: center;">My Calculator</h1>
+<body>
+    <!-- ----------------------------------html for the container part and ---------------- -->
+
+<div class="_container">
+    <!-- ----------------------------------html for the header part-------------------------- -->
+
+    <div class="header">
+  
+        <input type="text" id="_result" placeholder="Enter the value"  >
+        <span><button id="_clear" onclick="clearScreen()">Reset</button></span>
+    </div>
+    <!-- ----------------------------------html for the table part-------------------------- -->
+
+    <div class="tbl">
+<table id="blue">
+    <tr>
+        <td><button class="tone" onclick="show('0')">0</button></td>
+        <td><button class="tone" onclick="show('1')">1</button></td>
+        <td><button class="tone" onclick="show('2')">2</button></td>
+        <td><button class="tone" onclick="show('3')">3</button></td>
+        <td><button class="tone" onclick="show('4')">4</button></td>
+        <td><button class="tone" onclick="show('5')">5</button></td>
+       </tr>
+       <tr>
+        <td><button class="tone" onclick="show('6')">6</button></td>
+        <td><button class="tone" onclick="show('7')">7</button></td>
+        <td><button class="tone" onclick="show('8')">8</button></td>
+        <td><button class="tone" onclick="show('9')">9</button></td>
+        <td><button class="tone" onclick="show('00')">00</button></td>
+        <td><button class="tone"onclick="show('<')"><</button></td>
+       </tr>
+       <tr>
+        <td><button class="tone" onclick="show('>')">></button></td>
+        <td><button class="tone" onclick="show('*')">x</button></td>
+        <td><button class="tone" onclick="show('+')">+</button></td>
+        <td><button class="tone" onclick="show('-')">-</button></td>
+        <td><button class="tone" onclick="show('/')">/</button></td>
+        <th rowspan="2"><button class="tone1" onclick="show('+')">+</button></th>
+       </tr>
+       <tr>
+        <th colspan="5"><button class="tone3" onclick="sum()">SUM =</button></td>
+        
+      
+       </tr>
+</table>
+    </div>
+    <div class="name"><h3>-----made by AN$HU</h3></div>
+
+    
+    </div>
+</div>
+    <script src="mycal.js">
+      
+    </script>
+</body>
+</html>
