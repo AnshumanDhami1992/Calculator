@@ -39,6 +39,7 @@ text-shadow: 2px 2px black;}
     text-align: end;
     font-size: 25px;
     border-radius: 5px;
+    padding: 0;
 }
 
 
@@ -81,7 +82,7 @@ border-bottom-right-radius: 10px;
     width: 475px;
     height: 260px;
     border-radius: 10px;
-    background-color: plum;
+    background-color:plum;
 }
 .blue,td { width: 40px;
     height: 50px;
@@ -122,4 +123,12 @@ text-align: end;
 font-size: 30px;
 background-color: black;
 color: chartreuse;
+}
+
+
+@media only screen and (max-width:600px){
+
+    body{
+     background-color: olivedrab;
+    }
 }
